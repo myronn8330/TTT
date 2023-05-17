@@ -103,17 +103,3 @@ function check(symbol) {
     } else {
         return false;
     }
-
-
-
-
-
-    //reset
-    function reset()
-{
-   $("#screen").text("PLAYER 1 TURN FOLLOWS");
-   $("#screen").css("background-color", "transparent");
-   $(".r").removeClass("fa fa-check");
-   $(".r").removeClass("fa fa-times");
-   turn=1;
- }
