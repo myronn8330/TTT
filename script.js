@@ -27,8 +27,6 @@ $("button").click(function() {
 	{
 		$(this).css("background-color", "red");
 		setTimeout(() => {
-			$(this).css("background-color", "white");
-		}, 800);
 	}
 });
 
